@@ -2,6 +2,12 @@
 
 namespace SeoMoz\Generator;
 
+/**
+ * Class RequestUrl
+ * @package SeoMoz\Generator
+ * @author Jon Gotlin
+ * @author David Wickström
+ */
 class RequestUrl
 {
     /**
