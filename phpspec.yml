@@ -1,0 +1,4 @@
+formatter.name: pretty
+suites:
+  default:
+    namespace: SeoMoz
