@@ -5,10 +5,13 @@ Simple library to make requests against the free SeoMoz API
 
 ##Use
   
-  composer install
+```
+composer install
   
-  (new SeoMoz($accessId, $secretKey))->request('sunet.se');
-
+(new SeoMoz($accessId, $secretKey))->request('sunet.se');
+```
 ### Run tests
-  
-  vendor/bin/phpspec run
+
+```  
+vendor/bin/phpspec run
+```
