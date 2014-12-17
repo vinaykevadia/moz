@@ -2,6 +2,7 @@
 
 
 Simple library to make requests against the free SeoMoz API
+This is Fork off jongotlin/SeoMoz.
 
 ##Use
   
