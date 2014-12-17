@@ -7,7 +7,6 @@ use Prophecy\Argument;
 use SeoMoz\Client\Client;
 use SeoMoz\Generator\RequestUrl;
 use SeoMoz\Validator\ResponseValidator;
-use stdClass;
 
 class RequestSpec extends ObjectBehavior
 {
