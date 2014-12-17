@@ -1,7 +1,27 @@
 {
+    "name": "dwickstrom/moz",
+    "type": "library",
+    "description": "SEO metrics at hand",
+    "keywords": ["seomoz","seo", "moz"],
+    "homepage": "https://github.com/dwickstrom/moz",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jon Gotlin",
+            "role": "Developer"
+        },
+        {
+            "name": "David Wickström",
+            "email": "davidwickstrom@gmail.com",
+            "role": "Developer"
+        }
+    ],
     "require": {
-        "phpspec/phpspec": "~2.1",
+        "php": ">=5.4.0",
         "guzzlehttp/guzzle": "~5.0"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "~2.1"
     },
     "autoload": {
         "psr-4": {
