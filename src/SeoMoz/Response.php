@@ -2,6 +2,11 @@
 
 namespace SeoMoz;
 
+/**
+ * Class Response
+ * @package SeoMoz
+ * @author Jon Gotlin
+ */
 final class Response
 {
     /**
