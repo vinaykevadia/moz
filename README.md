@@ -1,8 +1,7 @@
 #Moz
 
 
-Simple library to make requests against the free SeoMoz API
-This is Fork off jongotlin/SeoMoz.
+This a is Fork off jongotlin/SeoMoz! Simple library to make requests against the free SeoMoz API.
 
 ##Use
   
