@@ -51,17 +51,10 @@ class RequestUrl
      */
     private function buildUrl($domainName, $cols, $expires, $urlSafeSignature)
     {
-        $parameters = [
-            "Cols" => $cols,
-            "AccessID" => $this->accessId,
-            "Expires" => $expires,
-            "Signature" => $urlSafeSignature
-        ];
-
         $parts = [
             'http://lsapi.seomoz.com/linkscape/url-metrics/',
             urlencode($domainName),
-            http_build_query($parameters)
+            "?Cols=".$cols."&AccessID=".$this->accessId."&Expires=".$expires."&Signature=".$urlSafeSignature
         ];
 
         return implode("", $parts);

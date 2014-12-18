@@ -23,7 +23,7 @@ class RequestUrlSpec extends ObjectBehavior
     {
         $it = $this->generate('testa.se');
         $it->shouldBeString();
-        $it->shouldStartWith('http://lsapi.seomoz.com/');
-        $it->shouldEndWith('3D');
+        $it->shouldStartWith('http://lsapi.seomoz.com/linkscape/url-metrics/testa.se');
+        $it->shouldEndWith('%3D');
     }
 }
