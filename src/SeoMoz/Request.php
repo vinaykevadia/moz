@@ -57,7 +57,7 @@ class Request
     private function respond($response)
     {
         return new Response(
-            json_decode($response)
+            json_decode($response->getBody()->__toString())
         );
     }
 }
