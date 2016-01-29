@@ -32,6 +32,6 @@
         "psr-4": {
             "SeoMoz\\": "src/SeoMoz"
         }
-    }
+    },
     "minimum-stability": "stable"
 }
