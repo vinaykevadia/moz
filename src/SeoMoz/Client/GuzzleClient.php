@@ -22,7 +22,7 @@ class GuzzleClient implements Client
         if (!$this->isValidArgument($url)) {
             throw new \InvalidArgumentException('Supply a valid URL please.');
         }
-        return $this->guzzle->get($url);
+        return $this->guzzle->request("GET", $url);
     }
 
     /**
