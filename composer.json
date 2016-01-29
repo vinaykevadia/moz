@@ -33,4 +33,5 @@
             "SeoMoz\\": "src/SeoMoz"
         }
     }
+    "minimum-stability": "stable"
 }
