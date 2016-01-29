@@ -1,9 +1,9 @@
 {
-    "name": "dwickstrom/moz",
+    "name": "vinaykevadia/moz",
     "type": "library",
     "description": "SEO metrics at hand",
     "keywords": ["seomoz","seo", "moz"],
-    "homepage": "https://github.com/dwickstrom/moz",
+    "homepage": "https://github.com/vinaykevadia/moz",
     "license": "MIT",
     "authors": [
         {
@@ -18,7 +18,7 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "guzzlehttp/guzzle": "~5.0"
+        "guzzlehttp/guzzle": "~6.0|~5.0|~4.0",
     },
     "require-dev": {
         "phpspec/phpspec": "~2.1"
